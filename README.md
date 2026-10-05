@@ -97,11 +97,12 @@ The defect-rate calculation is wrapped in `IF GVL_Tracking.nTotalInspected > 0`,
 
 **Requirements:** CODESYS Development System V3.5 SP17 or higher.
 
-1. Open `Bottle_Packaging_Reject_Cell.project` in CODESYS.
-2. Set the target device to **CODESYS Control Win V3 x64**, or enable **Online → Simulation**.
-3. Log in with **Online → Login** (`Alt + F8`).
-4. Start the application with **Debug → Start** (`F5`).
-5. Open the **Visualization** object and operate the cell from the HMI panel.
+1. Download or clone this repository.
+2. In CODESYS, go to **File** → **Open Project...** and select `Bottle_Packaging_Reject_Cell.project`.
+3. Set the target device to **CODESYS Control Win V3 x64**, or enable **Online** → **Simulation**.
+4. Log in with **Online** → **Login** (`Alt + F8`).
+5. Start the application with **Debug** → **Start** (`F5`).
+6. Open the **Visualization** object and operate the cell from the HMI panel.
 
 ---
 
